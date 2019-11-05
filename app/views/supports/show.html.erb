@@ -1,0 +1,33 @@
+
+<p>
+  <strong>Station:</strong>
+  <%= @support.station %>
+</p>
+
+<p>
+  <strong>Typeofsupport:</strong>
+  <%= @support.typeofsupport %>
+</p>
+
+<p>
+  <strong>Servicetag:</strong>
+  <%= @support.servicetag %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @support.description %>
+</p>
+
+<p>
+  <strong>Text:</strong>
+  <%= @support.text %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @support.user.username %>
+</p>
+
+<%= link_to 'Edit', edit_support_path(@support) %> |
+<%= link_to 'Back', supports_path %>
