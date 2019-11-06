@@ -28,9 +28,13 @@
         <td><%= support.text %></td>
         <td><%= support.user_id %></td>
         <td><%= link_to 'Show', support %></td>
-        <td><%= link_to 'Edit', edit_support_path(support) %></td>
-        <td><%= link_to 'Destroy', support, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
+        <% if can? :update, support %>
+	<td><%= link_to 'Edit', edit_support_path(support) %></td>
+        <% end %>
+        <% if can? :update, support %>
+	<td><%= link_to 'Destroy', support, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+       </tr>
      <% end %>
     <% end %>
   </tbody>

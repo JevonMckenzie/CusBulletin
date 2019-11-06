@@ -7,6 +7,8 @@ ruby '2.6.3'
 gem 'rails', '~> 6.0.0'
 # Use postgreql as the database for Active Record
 gem 'pg'
+# Use cancan for user authorization
+gem 'cancan'
 # use gem devise to create user profiles
 gem 'devise'
 # Use Puma as the app server
