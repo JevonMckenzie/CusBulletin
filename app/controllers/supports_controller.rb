@@ -1,6 +1,6 @@
 class SupportsController < ApplicationController
   before_action :set_support, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:show, :index]
+  before_action :authenticate_user!#, except: [:show, :index]
   # GET /supports
   # GET /supports.json
   def index

@@ -1,4 +1,5 @@
-\<p id="notice"><%= notice %></p>
+
+<p id="notice"><%= notice %></p>
 
 <h1>Supports</h1>
 
@@ -19,7 +20,7 @@
 
   <tbody>
     <% @supports.each do |support| %>
-     <% if support.station == current_user.station %>
+     <% if support.station == current_user.station || current_user.admin = true %>
       <tr>
         <td><%= support.station %></td>
         <td><%= support.typeofsupport %></td>
@@ -44,3 +45,4 @@
 
 <%= link_to 'New Support', new_support_path %><br><br>
 <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+
