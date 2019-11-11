@@ -3,14 +3,15 @@ class Ability
 
   def initialize(user)
      if user.admin?
-
+        can :manage, :all
 
       else
          can :update, Support do |support|
               support.user == user
          end
 
-         can :destroy, Support do |support|                                        support.user == user
+         can :destroy, Support do |support|                                       
+              support.user == user
          end
 
           can :create, Support
