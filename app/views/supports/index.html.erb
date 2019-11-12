@@ -20,7 +20,7 @@
 
   <tbody>
     <% @supports.each do |support| %>
-     <% if support.station == current_user.station || current_user.admin = true %>
+     <% if support.station == current_user.station || current_user.admin == true %> 
       <tr>
         <td><%= support.station %></td>
         <td><%= support.typeofsupport %></td>
