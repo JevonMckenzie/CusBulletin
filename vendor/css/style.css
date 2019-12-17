@@ -1,0 +1,373 @@
+/*html, body { height: 100%; }*/
+
+
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #999;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+
+.sl {
+    margin: 0;
+    background: radial-gradient(#666, #222);
+    overflow: hidden;
+}
+
+.theme {animation:animatezoom 0.6s}@keyframes animatezoom{from{transform:scale(0)} to{transform:scale(1)}}   
+
+.moving-zone {
+    position: absolute;
+    top:50%; left:50%;
+    width:500px; height:120px;
+    margin: -60px 0 0 -150px;
+    perspective: 800px;
+}
+.popup {
+    position: absolute;
+    width:300px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px 0 20px 0;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    background: -webkit-linear-gradient(top left, coral 50%, coral 50%);
+    background:    -moz-linear-gradient(top left, coral 50%, coral 50%);
+    background:     -ms-linear-gradient(top left, coral 50%, coral 50%);
+    background:      -o-linear-gradient(top left, coral 50%, coral 50%);
+    background:         linear-gradient(top left, coral 50%, coral 50%);
+}
+.popup:before {
+    content: '';
+    position: absolute;
+    left:5%; top:5%;
+    width:90%; height:90%;
+    border-radius: inherit;
+    background: rgba(0,0,0,.1);
+    box-shadow: 0 0 40px 20px rgba(0,0,0,.1);
+    transform: translateZ(-100px);
+}
+.popup-content {
+    background: #444;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px 0 10px 0;
+}
+.popup-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: center;
+    transform: translateZ(15px);
+}
+.popup-text b {
+    color: coral;
+    font-weight: 300;
+}
+
+
+/*------------------------------------------Where my code begins--------------------------*/
+/**/
+
+#active{/*Effects the button that corresponds with the active page*/
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:10px 60px 15px 15px;/*size of the white space around text*/
+	margin:0;
+	text-decoration:none;
+	float:right;
+	overflow:hidden;
+	display:inline-block;
+	font-weight:bold;
+	border-right:1px solid white;
+	height: 65px;
+	border-radius:5px;
+	text-align:center;	
+}
+/*--------------------------------------------------Home Button-----------------------------------------------*/
+#Hactive{/*custom size for the "Home" button*/
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:15px 30px 15px 30px;/*size of the white space around text*/
+	margin:0;
+	text-decoration:none;
+	float:right;
+	overflow:hidden;
+	display:inline-block;
+	font-weight:bold;
+	border-right:1px solid white;
+	height: 65px;
+	border-radius:5px;
+	text-align:center;	
+}
+
+ #slides {
+        position: relative;
+        top: 5px;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto 0;
+        box-shadow: 0 0 5px rgba(159,159,159,0.6);
+        -o-box-shadow: 0 0 5px rgba(159,159,159,0.6);
+        -webkit-box-shadow: 0 0 5px rgba(159,159,159,0.6);
+        -moz-box-shadow: 0 0 5px rgba(159,159,159,0.6);
+    }
+
+#Hinactive:hover{
+	font-weight:bold;
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:15px 30px 15px 30px;
+	margin:0;
+	float:right;
+	border-radius:5px;
+}
+#Hinactive{
+	border-right:1px solid white;
+	height: 65px;
+		font-weight:bold;
+	word-wrap: break-word;
+	padding:15px 30px 15px 30px;
+	margin:0;
+	float:right;
+	bottom:30px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Tariff Button-----------------------------------------------*/
+#TARactive{/*custom size for the "Home" button*/
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 10px 25px 10px;/*size of the white space around text*/
+	margin:0;
+	text-decoration:none;
+	float:right;
+	overflow:hidden;
+	display:inline-block;
+	font-weight:bold;
+	border-right:1px solid white;
+	height: 65px;
+	border-radius:5px;
+	text-align:center;	
+}
+#TARinactive:hover{
+	font-weight:bold;
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 10px 25px 10px;
+	margin:0;
+	float:right;
+	border-radius:5px;
+}
+#TARinactive{
+	border-right:1px solid white;
+	height: 65px;
+		font-weight:bold;
+	word-wrap: break-word;
+	padding:5px 10px 25px 10px;
+	margin:0;
+	float:right;
+	bottom:30px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+/*--------------------------------------------Trusted Traders------------------------------------------------*/
+#TRUactive{/*custom size for the "Home" button*/
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;/*size of the white space around text*/
+	margin:0;
+	text-decoration:none;
+	float:right;
+	overflow:hidden;
+	display:inline-block;
+	font-weight:bold;
+	border-right:1px solid white;
+	height: 65px;
+	border-radius:5px;
+	text-align:center;	
+}
+#TRUinactive:hover{
+	font-weight:bold;
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;
+	margin:0;
+	float:right;
+	border-radius:5px;
+}
+#TRUinactive{
+	border-right:1px solid white;
+	height: 65px;
+		font-weight:bold;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;
+	margin:0;
+	float:right;
+	bottom:30px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*--------------------------------------------About----------------------------------------------------------*/
+#Aactive{/*custom size for the "Home" button*/
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;/*size of the white space around text*/
+	margin:0;
+	text-decoration:none;
+	float:right;
+	overflow:hidden;
+	display:inline-block;
+	font-weight:bold;
+	border-right:1px solid white;
+	height: 65px;
+	border-radius:5px;
+	text-align:center;	
+}
+#Ainactive:hover{
+	font-weight:bold;
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;
+	margin:0;
+	float:right;
+	border-radius:5px;
+}
+#Ainactive{
+	border-right:1px solid white;
+	height: 65px;
+		font-weight:bold;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;
+	margin:0;
+	float:right;
+	bottom:30px;
+}
+/*-----------------------------------------------------------------------------------------------------------*/
+
+#Cactive{/*custom size for the "Home" button*/
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 30px 25px 30px;/*size of the white space around text*/
+	margin:0;
+	text-decoration:none;
+	float:right;
+	overflow:hidden;
+	display:inline-block;
+	font-weight:bold;
+	border-right:1px solid white;
+	height: 65px;
+	border-radius:5px;
+	text-align:center;	
+}
+#Cinactive{/*Individual ID for "Contact Us" button*/
+	height: 65px;
+		font-weight:bold;
+	word-wrap: break-word;
+	padding:5px 30px 15px 30px;
+	margin:0;
+	float:right;
+	bottom:30px;
+}
+#Cinactive:hover{
+	font-weight:bold;
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:5px 30px 15px 30px;
+	margin:0;
+	float:right;
+	border-radius:5px;
+}
+
+#inactive:hover{
+	font-weight:bold;
+	color:#336699;
+	background-color:#F0F8FF;
+	word-wrap: break-word;
+	padding:10px 50px 15px 15px;
+	margin:0;
+	float:right;
+	border-radius:5px;
+
+}
+
+
+
+#inactive{
+	border-right:1px solid white;
+	height: 65px;
+		font-weight:bold;
+	word-wrap: break-word;
+	padding:10px 50px 15px 15px;
+	margin:0;
+	float:right;
+	bottom:30px;
+
+}
+
+
+
+#inactive:after{
+	display: block;
+	color:#336699;
+	background-color:white;
+	word-wrap: break-word;
+	padding:10px 50px 15px 15px;
+	margin:0;
+	float:right;
+	overflow:hidden;
+	visibility:hidden;
+
+}
+
+#mainMen{
+	white-space:nowrap;
+}
+
+

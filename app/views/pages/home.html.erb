@@ -1,13 +1,178 @@
-<h1>Customs Internal Bulletin</h1>
 
-<% if current_user %>
-<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
-<%= link_to 'Edit User Information', edit_user_registration_path %>
+
+
+
+	<div class="container">
+ <div class="bg-faded p-4 my-4">
+
+          <table width="100%">
+          	<tr><td align="center">
+          		<div class="theme">
+          			<h2 class="theme_" style="color:darkblue">Customs & Excise Department Bulletin</h2><br><% if current_user %>
+
+<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<%= link_to 'Edit User Information', edit_user_registration_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <% else %>
-<%= link_to 'Sign up', new_user_registration_path %>
+<%= link_to 'Sign up', new_user_registration_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-<%= link_to 'Sign in', new_user_session_path %>
+<%= link_to 'Sign in', new_user_session_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
 <% end %>
 
 
 <%= link_to 'Supports', supports_path %>
+          		</div>
+          	</td></tr>          	
+          </table>
+
+          <div class="card-header" role="tab" id="headingNine">
+<table align="center">
+	<tr>
+
+		
+		<td align="center" width="50%"><a href='change-pwd.php'>CHANGE MY PASSWORD</a></td>
+		
+		<td align="center" width="50%"><a href='logout.php'>LOGOUT</a></td>
+	</tr>
+          <table width="100% align="center">   
+            <tr>
+                 <td align="center" width="100%"> 
+                  			<h3 class="my-4"> 
+                  <div id='fg_membersite_content' align="center">
+                  	<table align="center"> 
+                  		<tr><td align="center">
+						
+            
+           
+
+				
+
+
+
+Stay Updated With What's Going On.</td></tr><tr><td><h5> 
+
+
+
+        
+  <div class="tagline-lower text-center text-expanded text-shadow text-uppercase  mb-5 d-none d-lg-block">   <div class="text-center mt-4">
+
+          <div class="theme"><h4 class="theme_" style="color:darkblue"><a href="../Training/index.php" target="_blank">JOB OPPORTUNITY </a></h4></div>
+              
+  </div></div>
+      
+        
+
+
+ </td>
+</tr>
+</table></div></h3></td>
+            </tr>
+          </table></table><br>
+
+          <h6> <a href="exchangeRates_primary.php"> Set Exchange Rates To Be Automatically Updated at 10:00a.m. on Monday.</a></h6>
+
+                 <div class="row"><br>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header" align="center">Officer Of The Month</h4>
+            <div class="card-body">
+              <p class="card-text"><b>Date:</b><br> March 27th <br><br><b>Name Of Officer:</b><br> Include information about oficer</p>
+            </div>
+            <div class="card-footer">
+              <a href="" target = "_blank" class="btn btn-primary">Read About Officer</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header" align="center">Quiz Yourself</h4>
+            <div class="card-body">
+              <p class="card-text" align="center"><a href = "./quiz_trade_1.php" target="_blank">Int. Trade & Policy (Level 1)</a><br>    <br><br><b>  </b><br>  </p>
+            </div>
+            <div class="card-footer">
+              <a href="./quiz_trade_1.php" target ="_blank" class="btn btn-primary">Take Quiz</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header" align="center">Proff. Development</h4>
+            <div class="card-body">
+              <p class="card-text" align="center"><a href="../CustomsExcelCourse/index.php" target="_blank">Microsoft Excel Course</a></p>
+            </div>
+            <div class="card-footer">
+              <a href="" target="_blank" class="btn btn-primary"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          
+          
+
+
+
+
+
+  </div>  
+
+
+
+</div>
+
+
+
+
+<div class="bg-faded p-4 my-4">
+ <div class="row"><br>                                                                                                                                                      <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header" align="center">Policies & SOP's</h4>
+            <div class="card-body">
+              <p class="card-text"><br>Insert Link<br><br>Insert Link</p>
+            </div>
+            <div class="card-footer">
+              <a href="" target = "_blank" class="btn btn-primary">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">
+            <h4 class="card-header" align="center">Forms</h4>
+            <div class="card-body">
+              <p class="card-text" align="center"><a href = "./quiz_trade_1.php" target="_blank">Insert Links</a><br>    <br><br><b>  </b><br>  </p>
+            </div>
+            <div class="card-footer">
+              <a href="./quiz_trade_1.php" target ="_blank" class="btn btn-primary">Read About Forms</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card h-100">                                                                                                                                                              <h4 class="card-header" align="center">Proff. Development</h4>
+            <div class="card-body">
+              <p class="card-text" align="center"><a href="../CustomsExcelCourse/index.php" target="_blank">Microsoft Excel Course</a></p>                                                      </div>
+            <div class="card-footer">
+              <a href="" target="_blank" class="btn btn-primary"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+</div>                 
+
+
+
+        
+
+
+ 
+ <footer class="footerbg text-center">
+      <div class="container  footerbg">
+         <p class="m-0 footerbg" style="color:white">Copyright &copy; Belize Customs and Excise 2018<br>Web Design: Jevon Mckenzie &nbsp;&nbsp;&nbsp; Graphic Design: Julian Chimal</p>
+       </div>
+    </footer>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>

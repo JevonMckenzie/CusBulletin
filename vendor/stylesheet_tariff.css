@@ -1,0 +1,119 @@
+#subheading{
+	text-align:center;
+	color:black;
+	font-family:  Imprint MT Shadow,harrington,  sans-serif, Helvetica;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+}
+	
+#content{
+	text-align:left;
+	color:black;
+	font-family:sans-serif, Helvetica;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: ;
+	font-variant: normal;
+	text-transform: none;
+	padding-left:10px;
+	padding-bottom:20px;
+}
+
+#chapters{
+	text-align:left;
+	color:blue;
+	font-family:sans-serif, Helvetica;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 24px;
+	font-weight: ;
+	font-variant: normal;
+	text-transform: none;
+	padding-left:70px;
+	padding-bottom:20px;
+}
+
+#a {   
+  animation-duration: 400ms;
+  animation-name: blink;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color:red;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+.example1 {
+ height: 50px;	
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 10px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);	
+ transform:translateX(100%);
+ /* Apply animation to this element */	
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   { 
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%); 		
+ }
+ 100% { 
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%); 
+ }
+}
+
+/*
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+img {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+}
+*/
+

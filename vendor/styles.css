@@ -1,0 +1,53 @@
+.copyright {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #FFFFFF;
+}
+.font {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #903219;
+	line-height: 126%;
+}
+.header {
+	font-family: "Trebuchet MS";
+	font-size: 15px;
+	color: #9C3B21;
+	font-weight: bold;
+}
+a:link {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	font-weight: bold;
+	color: #A2391F;
+	text-decoration: underline;
+}
+a:hover {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #666666;
+}
+a:visited {
+	font-family: "Trebuchet MS";
+	font-size: 13px;
+	color: #00005E;
+	text-decoration: underline;
+}
+.header2 {
+	font-family: "Trebuchet MS";
+	font-size: 22px;
+	font-weight: bold;
+	color: #9C3B21;
+}
+.fontlg {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #903219;
+}
+.fontlg2 {
+	font-family: "Trebuchet MS";
+	font-size: 18px;
+	color: #4D374E;
+	font-weight: bold;
+	line-height: 18px;
+}

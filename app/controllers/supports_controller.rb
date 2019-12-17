@@ -31,8 +31,9 @@ class SupportsController < ApplicationController
   # POST /supports
   # POST /supports.json
   def create
-    @support = Support.new(support_params)
-    @support.user = current_user
+    @user = current_user
+    @support =@user.supports.build(support_params)
+    
     respond_to do |format|
       if @support.save
         format.html { redirect_to @support, notice: 'Support was successfully created.' }

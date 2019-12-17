@@ -1,7 +1,8 @@
-
+<div class="container">
+<div class="bg-faded p-4 my-4">
 <p id="notice"><%= notice %></p>
 
-<h1>Supports</h1>
+<h1 align="center">Customs IT Support</h1><br><br><br>
 
 
 
@@ -26,16 +27,35 @@
         <td><%= support.typeofsupport %></td>
         <td><%= support.servicetag %></td>
         <td><%= support.description %></td>
-        <td><%= support.text %></td>
+        <td>      </td>
         <td><%= support.user_id %></td>
         <td><%= link_to 'Show', support %></td>
         <% if can? :update, support %>
 	<td><%= link_to 'Edit', edit_support_path(support) %></td>
         <% end %>
         <% if can? :update, support %>
-	<td><%= link_to 'Destroy', support, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+	<td><%= link_to 'Destroy', support, method: :delete, data: { confirm: 'Are you sure?' } %>
         <% end %>
-       </tr>
+      </td><td>
+	
+        <% if support.rsupports.any? %>
+	
+		
+
+		<h4>Response</h4>
+		<%= render support.rsupports %>
+		<% end %>
+	
+		<p> Add Response </p>
+                  
+		<%= form_for([support, support.rsupports.build]) do |f| %>
+		  
+ <%= f.text_area :description %>
+                   <%= submit_tag "Add" %>
+                <% end %>
+	</td> 
+        </tr>
+
      <% end %>
     <% end %>
   </tbody>
@@ -46,3 +66,5 @@
 <%= link_to 'New Support', new_support_path %><br><br>
 <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
 
+</div>
+</div>
