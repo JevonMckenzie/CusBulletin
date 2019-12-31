@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_11_24_170702) do
+ActiveRecord::Schema.define(version: 2019_12_28_190009) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,6 +38,24 @@ ActiveRecord::Schema.define(version: 2019_11_24_170702) do
     t.index ["user_id"], name: "index_supports_on_user_id"
   end
 
+  create_table "toners", force: :cascade do |t|
+    t.integer "requisitionnumber"
+    t.string "username"
+    t.string "tonername"
+    t.integer "quantity"
+    t.string "sectionname"
+    t.string "stationname"
+    t.datetime "requestdate"
+    t.string "comment"
+    t.datetime "issuedate"
+    t.string "issuedby"
+    t.string "issuecomment"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_toners_on_user_id"
+  end
+
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
     t.string "encrypted_password", default: "", null: false
@@ -53,4 +71,5 @@ ActiveRecord::Schema.define(version: 2019_11_24_170702) do
   end
 
   add_foreign_key "supports", "users"
+  add_foreign_key "toners", "users"
 end

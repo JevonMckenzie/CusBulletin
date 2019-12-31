@@ -20,56 +20,15 @@
 <% end %>
 
 
-<%= link_to 'Supports', supports_path %>
+
           		</div>
           	</td></tr>          	
           </table>
 
           <div class="card-header" role="tab" id="headingNine">
-<table align="center">
-	<tr>
+</table>
 
-		
-		<td align="center" width="50%"><a href='change-pwd.php'>CHANGE MY PASSWORD</a></td>
-		
-		<td align="center" width="50%"><a href='logout.php'>LOGOUT</a></td>
-	</tr>
-          <table width="100% align="center">   
-            <tr>
-                 <td align="center" width="100%"> 
-                  			<h3 class="my-4"> 
-                  <div id='fg_membersite_content' align="center">
-                  	<table align="center"> 
-                  		<tr><td align="center">
-						
-            
-           
-
-				
-
-
-
-Stay Updated With What's Going On.</td></tr><tr><td><h5> 
-
-
-
-        
-  <div class="tagline-lower text-center text-expanded text-shadow text-uppercase  mb-5 d-none d-lg-block">   <div class="text-center mt-4">
-
-          <div class="theme"><h4 class="theme_" style="color:darkblue"><a href="../Training/index.php" target="_blank">JOB OPPORTUNITY </a></h4></div>
-              
-  </div></div>
-      
-        
-
-
- </td>
-</tr>
-</table></div></h3></td>
-            </tr>
-          </table></table><br>
-
-          <h6> <a href="exchangeRates_primary.php"> Set Exchange Rates To Be Automatically Updated at 10:00a.m. on Monday.</a></h6>
+          
 
                  <div class="row"><br>
         <div class="col-lg-4 mb-4">
@@ -85,20 +44,22 @@ Stay Updated With What's Going On.</td></tr><tr><td><h5>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header" align="center">Quiz Yourself</h4>
+            <h4 class="card-header" align="center">Forms</h4>
             <div class="card-body">
-              <p class="card-text" align="center"><a href = "./quiz_trade_1.php" target="_blank">Int. Trade & Policy (Level 1)</a><br>    <br><br><b>  </b><br>  </p>
+              <p class="card-text" align="center"> <%= link_to 'Request IT Support', supports_path %><br><br>
+                <%= link_to 'Request Toner', toners_path %>
+             </p>
             </div>
-            <div class="card-footer">
-              <a href="./quiz_trade_1.php" target ="_blank" class="btn btn-primary">Take Quiz</a>
-            </div>
+           <div class="card-footer">
+            <a href="" target="_blank" class="btn btn-primary"></a>
+           </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
             <h4 class="card-header" align="center">Proff. Development</h4>
             <div class="card-body">
-              <p class="card-text" align="center"><a href="../CustomsExcelCourse/index.php" target="_blank">Microsoft Excel Course</a></p>
+             <p class="card-text" align="center"> <%= link_to 'Microsoft Excel Course', pages_excel_path %> </p>
             </div>
             <div class="card-footer">
               <a href="" target="_blank" class="btn btn-primary"></a>
@@ -131,18 +92,18 @@ Stay Updated With What's Going On.</td></tr><tr><td><h5>
               <p class="card-text"><br>Insert Link<br><br>Insert Link</p>
             </div>
             <div class="card-footer">
-              <a href="" target = "_blank" class="btn btn-primary">Read More</a>
+              <a href="" target = "_blank" class="btn btn-primary"></a>
             </div>
           </div>
         </div>
         <div class="col-lg-4 mb-4">
           <div class="card h-100">
-            <h4 class="card-header" align="center">Forms</h4>
+            <h4 class="card-header" align="center">Quizletts</h4>
             <div class="card-body">
-              <p class="card-text" align="center"><a href = "./quiz_trade_1.php" target="_blank">Insert Links</a><br>    <br><br><b>  </b><br>  </p>
+              <p class="card-text" align="center"><%= link_to 'Insert Link to Quizlett', supports_path %> </p>
             </div>
             <div class="card-footer">
-              <a href="./quiz_trade_1.php" target ="_blank" class="btn btn-primary">Read About Forms</a>
+              <a href="" target ="_blank" class="btn btn-primary"></a>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ class User < ApplicationRecord
 
   has_many :supports, dependent: :destroy
   has_many :rsupports
+  has_many :toners, dependent: :destroy
 
   def username
       return self.email.split('@')[0].capitalize

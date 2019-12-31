@@ -1,0 +1,27 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  requisitionnumber: 1
+  username: MyString
+  tonername: MyString
+  quantity: 1
+  sectionname: MyString
+  stationname: MyString
+  requestdate: 2019-12-27 13:39:57
+  comment: MyString
+  issuedate: 2019-12-27 13:39:57
+  issuedby: MyString
+  issuecomment: MyString
+
+two:
+  requisitionnumber: 1
+  username: MyString
+  tonername: MyString
+  quantity: 1
+  sectionname: MyString
+  stationname: MyString
+  requestdate: 2019-12-27 13:39:57
+  comment: MyString
+  issuedate: 2019-12-27 13:39:57
+  issuedby: MyString
+  issuecomment: MyString

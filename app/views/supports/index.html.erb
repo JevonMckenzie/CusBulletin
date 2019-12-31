@@ -3,7 +3,9 @@
 <p id="notice"><%= notice %></p>
 
 <h1 align="center">Customs IT Support</h1><br><br><br>
-
+<%= link_to 'New Support', new_support_path %><br>
+<%= link_to 'Home', root_path %><br>
+<%= link_to 'Sign out', destroy_user_session_path, method: :delete %><br><br>
 
 
 <table>
@@ -63,8 +65,7 @@
 
 <br>
 
-<%= link_to 'New Support', new_support_path %><br><br>
-<%= link_to 'Sign out', destroy_user_session_path, method: :delete %>
+
 
 </div>
 </div>
