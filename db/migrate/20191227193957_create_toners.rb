@@ -1,7 +1,7 @@
 class CreateToners < ActiveRecord::Migration[6.0]
   def change
-    create_table :toners do |t|
-      t.integer :requisitionnumber
+    create_table :toners, id: false do |t|
+      t.primary_key :requisitionnumber
       t.string :username
       t.string :tonername
       t.integer :quantity

@@ -13,7 +13,7 @@
 
   <div class="field">
     <%= form.label :requisitionnumber %>
-    <%= form.number_field :requisitionnumber %>
+    <%= form.text_field :requisitionnumber, :readonly => true %> 
   </div>
 
   <div class="field">
@@ -23,17 +23,17 @@
 
   <div class="field">
     <%= form.label :tonername %>
-    <%= form.text_field :tonername %>
+    <%= form.text_field :tonername, readonly: form.object.persisted? %>
   </div>
 
   <div class="field">
     <%= form.label :quantity %>
-    <%= form.number_field :quantity %>
+    <%= form.number_field :quantity, readonly: form.object.persisted? %>
   </div>
 
   <div class="field">
     <%= form.label :sectionname %>
-    <%= form.text_field :sectionname %>
+    <%= form.text_field :sectionname, readonly: form.object.persisted? %>
   </div>
 
   <div class="field">
@@ -45,7 +45,7 @@
 
   <div class="field">
     <%= form.label :comment %>
-    <%= form.text_field :comment %>
+    <%= form.text_field :comment, readonly: form.object.persisted? %>
   </div>
 <div class="field">
     <%= form.label :RequestDate %>
@@ -56,6 +56,12 @@
     <%= form.label :IssuedBy %>
     <%= form.text_field :issuedby %>
   </div>
+
+  <div class="field">
+    <%= form.label :QuantityIssued %>
+    <%= form.number_field :quantityissued %>                                                  
+  </div>
+
 
   <div class="field">
     <%= form.label :IssueDate %>

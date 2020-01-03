@@ -1,0 +1,80 @@
+user_id,requestdate,tonername,stationname,sectionname,comment,issuedby,issuedate,quantity,issuecomment,username,quantityissued
+112,06/05/2019,35A HP,Belize City,BZ-Excise,Ink cartridge completed.,Jevon Mckenzie,06/05/2019,1,None,Carla Martin,1
+29,27/03/2019,PK492,Belize City,BZ-Shipping,toner to replace finish one,bcawich,27/03/2019,1,NULL,Debbie Mortis,1
+30,01/04/2019,laser jet 80A CFZ 80a,Belize City,BZ-Investigation,TONER RUNNING LOW,Jevon Mckenzie,01/04/2019,1,None,Attlee Castillo,1
+3,27/03/2019,113x,Belize City,BZ-Shipping,toner requisition for shipping on behalf of D.Mortis,bcawich,27/03/2019,1,NULL,Bonnifacio Cawich,1
+152,15/05/2019,HP LAZER JET 90A,Benque,Benque-Cargo,URGENTLY NEEDED,bcawich,16/05/2019,2,deilvered to shipping today,Julio Martinez,1
+152,15/05/2019,dell 2350DN,Benque,Benque-Passenger,,bcawich,16/05/2019,3,kindly note the toner # is PK492 ,Julio Martinez,2
+27,25/03/2019,HP17A,Belize City,BZ-Accounts,None,Jevon Mckenzie,25/03/2019,1,None,Latifah Augustine,1
+23,05/03/2019,17A,San Pedro,San Pedro,Toner has exhausted and need replacement,Jevon Mckenzie,05/03/2019,1,Dropped off Toner and PO at Security. Will Be delivered first thing in the morning.,Louis Betancourt,1
+23,07/03/2019,90A,San Pedro,San Pedro,toner level is low will soon need replacement,Jevon Mckenzie,14/03/2019,1,NULL,Louis Betancourt,1
+9,29/03/2019,Hp laserjet 30 A,Belize City,BZ-Trade,None,Jevon Mckenzie,01/04/2019,1,None,Deon Castillo,1
+21,30/01/2019,Dell 2350dn,Benque,Benque-Cargo,Kindly provide also 4 Dell 2350dn and 2 lexmark MS415dn to be used at both passenger and cargo section. Thanks in advance,Jevon Mckenzie,12/02/2019,NULL,2 PK492 and 1 Lexmark were sent.,Rackel Waight,2
+24,07/03/2019,GPR22,Belize City,BZ-Records,,Jevon Mckenzie,07/03/2019,1,None,Roshay Hughes,1
+22,18/02/2019,81A,Corozal,Corozal-Passenger,,Jevon Mckenzie,18/02/2019,1,None,Feliciano Cowo,1
+20,06/03/2019,17A,Belize City,BZ-Accounts,Created by Jevon Mckenzie as a form of assistance to the FO. The toner is for the printer that is connected to the CITO computer,Jevon Mckenzie,06/03/2019,1,None,Jevon Mckenzie,1
+25,22/05/2019,cannon image runner 1025if ,Belize City,BZ-Records,,Bonnifacio Cawich,23/05/2019,1,kindly note toner number is GPR 22,Winston Bennett,1
+25,22/05/2019,cannon image runner 1025if ,Belize City,BZ-Records,,Jevon Mckenzie,05/06/2019,1,VOID DUE TO DUPLICATE REQUISITION,Winston Bennett,0
+21,04/06/2019,Dell 2350dn,Benque,Benque-Cargo,,Jevon Mckenzie,05/06/2019,3,Limited of this toner type available on inventory. Delivered to the Security office for pickup by Mr. John Nembhard.,Rackel Waight,2
+21,04/06/2019,HP laserjet 90A,Benque,Benque-Passenger,,Jevon Mckenzie,05/06/2019,1,Delivered to the Security office for pickup by Mr. John Nembhard.,Rackel Waight,1
+25,10/06/2019,Dell 1130,Belize City,BZ-Records,,Bonnifacio Cawich,12/06/2019,1,kindly note that toner # is 113x not dell 1130,Winston Bennett,1
+2,11/06/2019,410A Black,Belize City,BZ-Trade,,Bonnifacio Cawich,12/06/2019,1,410A black only is issued,Therese Martinez,1
+16,14/06/2019,83A,Belize City,BZ-Records,ADMINISTRATIVE OFFICER,Bonnifacio Cawich,18/06/2019,1,delivered,Anya Phillips,1
+9,20/06/2019,HP LASERJET PRO MFP M227FDW,Belize City,BZ-Trade,Requesting one Black ink,Bonnifacio Cawich,20/06/2019,1,kindly note it is toner # 30A,Deon Castillo,1
+9,20/06/2019,Hp LaserJet Magenta Cartridge 410A (CF413A) ,Belize City,BZ-Trade,,Bonnifacio Cawich,20/06/2019,1,issued ,Deon Castillo,1
+9,20/06/2019,Hp LaserJet Yellow Cartridge 410A (CF412A) ,Belize City,BZ-Trade,,Bonnifacio Cawich,20/06/2019,1,ISSUED,Deon Castillo,1
+9,20/06/2019,Hp LaserJet Cyan Cartridge 410A (CF411A) ,Belize City,BZ-Trade,,Bonnifacio Cawich,20/06/2019,1,ISSUED,Deon Castillo,1
+23,24/06/2019,17A,San Pedro,San Pedro,,Bonnifacio Cawich,02/07/2019,1,ISSUED,Louis Betancourt,1
+175,24/06/2019,Dell 1130 ,Punta Gorda,Punta Gorda,,Bonnifacio Cawich,02/07/2019,2,ISSUED,Johnisha Mariano,1
+195,04/07/2019,LASERJET PRO MFP M22FDW,Belize City,BZ-Trade,BLACK LASER JET PRO MFP MZZ7 FLOW INK,Bonnifacio Cawich,04/07/2019,2,kindly note that toner # 30A,Rahyme Sacasa,1
+22,08/07/2019,17A,Corozal,Corozal-Passenger,TONER HAS exhausted and need replacement,Bonnifacio Cawich,08/07/2019,1,delivered to shipping,Feliciano Cowo,1
+11,11/07/2019,HP 80A Laserjet,Belize City,BZ-Training,,Jevon Mckenzie,18/07/2019,1,Went from supplier direct to Training ,Tricia Soberanis,1
+23,16/07/2019,36A,San Pedro,San Pedro,,Jevon Mckenzie,24/07/2019,1,Left at Customs Security for drop off at Tropic.,Louis Betancourt,1
+153,24/07/2019,LASER JET PRO M501,Belize City,BZ-Post Audit,,Jevon Mckenzie,24/07/2019,1,None,Francis Alfaro,1
+195,29/07/2019,laserjet 32a CF232A,Belize City,BZ-Trade,BLACK,Bonnifacio Cawich,31/07/2019,1,ISSUED 30A not ,Rahyme Sacasa,1
+195,29/07/2019,laserjet 32a CF232A,Belize City,BZ-Trade,BLACK,Bonnifacio Cawich,14/08/2019,1,already issued 1 pc 30a not 32a,Rahyme Sacasa,0
+195,29/07/2019,Laserjet 410A CF410A,Belize City,BZ-Trade,"ONE BLACK, ONE CYAN CIAN, ONE YELLOW JAINE AMARILLO AND MAGENTA",Bonnifacio Cawich,29/07/2019,4,4pcs issued one of each color,Rahyme Sacasa,1
+83,12/08/2019,64A,Belize City,BZ-Port Shed,,Bonnifacio Cawich,14/08/2019,1,sent to port shed,Elena Bowman,1
+22,13/08/2019,81A,Corozal,Corozal-Passenger,Toner has exhausted and need replacement ,Bonnifacio Cawich,14/08/2019,1,delivered to shipping,Feliciano Cowo,1
+22,13/08/2019,81A,Corozal,Corozal-Passenger,Toner has exhausted and need replacement ,Bonnifacio Cawich,14/08/2019,1,one printer available one toner at a time,Feliciano Cowo,0
+22,13/08/2019,CE505AC,Corozal,Corozal-Cargo,TONER HAS EXHAUSTED AND NEED REPLACEMENT,Bonnifacio Cawich,14/08/2019,1,delivered to shipping,Feliciano Cowo,1
+186,14/08/2019,LaserJet 55x (Black Ink),Belize City,BZ-Accounts,,Bonnifacio Cawich,16/08/2019,1,issued,Kijuan Rosado,1
+25,20/08/2019,Dell 113x,Belize City,BZ-Records,,Bonnifacio Cawich,20/08/2019,1,issued to Winston,Winston Bennett,1
+40,22/08/2019,DELL PK492 2330d/dn&2350d/dn,Belize City,BZ-Post Audit,urgently needed ,Bonnifacio Cawich,22/08/2019,1,ISSUED,Kendra Smith,1
+25,26/08/2019,image runner 1025 iF,Belize City,BZ-Records,,Bonnifacio Cawich,26/08/2019,1,Toner is gpr22,Winston Bennett,1
+146,28/08/2019,HP Laser Jet 600/M601,Benque,Benque-Cargo,Toner urgently needed and one for backup,Jevon Mckenzie,12/09/2019,2,Sent to Shipping for next Cargo to Benque,Arnoldo Howe ,1
+146,28/08/2019,Cannon Image Runner 1435i,Benque,Benque-Cargo,Ink running low and the other as backup,Jevon Mckenzie,12/09/2019,2,Sent to Shipping for next Cargo to Benque,Arnoldo Howe ,1
+146,28/08/2019,Dell 2350 dn,Benque,Benque-Passenger,Ink running low and one for OIC cargo area,Jevon Mckenzie,12/09/2019,2,Sent to Shipping for next Cargo to Benque,Arnoldo Howe ,1
+195,30/08/2019,Laserjet 410A CF410A,Belize City,BZ-Trade,ONE BLACK LASERJET PRINTER CARTRIDGE FOR 410A CF410A,Bonnifacio Cawich,09/12/2019,1,not issued wrong toner requested,Rahyme Sacasa,0
+187,02/09/2019,LEXMARK  60F4H00,Punta Gorda,Punta Gorda,,Jevon Mckenzie,12/09/2019,1,Only 1 in Stock,Emett Vernon,1
+195,04/09/2019,Laserjet 410A CF410A,Belize City,BZ-Trade,1 magenta toner for  Laserjet 410A CF410A,Jevon Mckenzie,04/09/2019,1,None Available. Received wrong toner but returned it.,Rahyme Sacasa,0
+23,05/09/2019,36A,San Pedro,San Pedro,,Jevon Mckenzie,12/09/2019,1,Sent to Accounts for PO,Louis Betancourt,1
+187,11/09/2019,HP Laser Jet CE505A,Punta Gorda,Punta Gorda,,Jevon Mckenzie,12/09/2019,1,Only 1 in Stock,Emett Vernon,1
+11,12/09/2019,HP 80A Laserjet,Belize City,BZ-Training,,Jevon Mckenzie,12/09/2019,1,None,Tricia Soberanis,1
+187,13/09/2019,APC Surge protector UPS ES 550,Punta Gorda,Punta Gorda,,Bonnifacio Cawich,09/12/2019,1,SENT BY SYS ADMIN,Emett Vernon,1
+20,16/09/2019,83 A,Belize City,BZ-Records,For Admin Officer,Jevon Mckenzie,24/09/2019,1,"Issued on Sept 18. Entered in System today, 24..",Jevon Mckenzie,1
+20,16/09/2019,410 A Black,Belize City,BZ-Records,For Admin Officer,Bonnifacio Cawich,07/11/2019,1,ISSUED,Jevon Mckenzie,1
+20,16/09/2019,410 A Cyan,Belize City,BZ-Records,For Admin Officer,Bonnifacio Cawich,09/12/2019,1,NOT ISSUED WRONG TONER NUMBER,Jevon Mckenzie,0
+22,26/09/2019,81A,Corozal,Corozal-Passenger,"pass-checkpoint 
+",Bonnifacio Cawich,03/10/2019,1,delivered to shipping,Feliciano Cowo,1
+22,26/09/2019,113X,Corozal,Corozal-Cargo,CARGO-VALUATION,Bonnifacio Cawich,03/10/2019,1,delivered to shipping,Feliciano Cowo,1
+190,08/10/2019,Laser Jet 30 A,Belize City,BZ-Trade,,Bonnifacio Cawich,08/10/2019,1,ISSUED,Shan Ferguson,1
+20,09/10/2019,GPR 22 Drum,Belize City,BZ-Records,Requesting on Behalf of Records Section.,Bonnifacio Cawich,11/10/2019,1,ISSUED,Jevon Mckenzie,1
+189,11/10/2019,26A,Belize City,BZ-PGIA-Passenger,"1 Low, No inventory",Bonnifacio Cawich,11/10/2019,2,left at security section,Aaron Shepherd,2
+66,23/10/2019,hp laserjet 05A,Big Creek,Big Creek,,Bonnifacio Cawich,23/10/2019,2,delivered to shipping murrillo,Leroy Viamille,2
+190,23/10/2019,Laser Jet 410 A Magenta,Belize City,BZ-Trade,,Bonnifacio Cawich,23/10/2019,1,ISSUED,Shan Ferguson,1
+25,25/10/2019,Dell 113x,Belize City,BZ-Records,,Bonnifacio Cawich,25/10/2019,1,ISSUED,Winston Bennett,1
+107,01/11/2019,hp officejet pro 8710,Belize City,BZ-Post Audit,"as soon as possible, thanks.",Bonnifacio Cawich,05/11/2019,1,ISSUED 1 EACH COLOR,Emelda Cocom,1
+77,11/11/2019,131x black,Belize City,BZ-Risk Management,,Bonnifacio Cawich,25/11/2019,1,ISSUED,Solangel Perez,1
+191,15/11/2019,gpr22,Belize City,BZ-Records,,Bonnifacio Cawich,18/11/2019,1,ISSUED,Jahne Gladden,1
+22,25/11/2019,81A,Corozal,Corozal-Passenger,,Bonnifacio Cawich,04/12/2019,1,Taken to czl,Feliciano Cowo,1
+22,25/11/2019,17A,Corozal,Corozal-Passenger,,Bonnifacio Cawich,04/12/2019,1,Taken to czl,Feliciano Cowo,1
+23,26/11/2019,UPS Battery,San Pedro,San Pedro,,Bonnifacio Cawich,09/12/2019,1,sent by sys admin,Louis Betancourt,1
+25,28/11/2019,410A (CF413A),Belize City,BZ-Records,,Bonnifacio Cawich,09/12/2019,1,issued by sys admin,Winston Bennett,1
+25,28/11/2019,410A (CF412A),Belize City,BZ-Records,,Bonnifacio Cawich,05/12/2019,1,ISSUED,Winston Bennett,1
+40,05/12/2019,DELL PK492 2330d/dn&2350d/dn,Belize City,BZ-Post Audit,Urgently need ,Bonnifacio Cawich,09/12/2019,1,ISSUED,Kendra Smith,1
+22,09/12/2019,81A,Corozal,Corozal-Passenger,,NULL,NULL,1,NULL,Feliciano Cowo,NULL
+22,09/12/2019,90A,Corozal,Corozal-Cargo,,Bonnifacio Cawich,09/12/2019,1,delivered to shipping,Feliciano Cowo,1
+22,09/12/2019,113X,Corozal,Corozal-Cargo,VALUATION,Bonnifacio Cawich,09/12/2019,1,delivered to shipping,Feliciano Cowo,1
+22,09/12/2019,CE505AC,Corozal,Corozal-Cargo,CARGO-EXAMINATION,Bonnifacio Cawich,09/12/2019,1,sent along with printer,Feliciano Cowo,1
+22,09/12/2019,CE505AC,Corozal,Corozal-Cargo,CARGO-INVESTIGATION ,Bonnifacio Cawich,09/12/2019,1,delivered to shipping,Feliciano Cowo,1
