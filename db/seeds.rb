@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 require 'csv'    
 
-csv_text = File.read('public/tonerData.csv')
+csv_text = File.read('public/usersData.csv')
 csv = CSV.parse(csv_text, :headers => true)
 csv.each do |row|
-  Toner.create!(row.to_hash)
+  User.create!(row.to_hash)
 end

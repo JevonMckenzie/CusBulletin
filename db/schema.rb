@@ -49,11 +49,9 @@ ActiveRecord::Schema.define(version: 2020_01_01_205248) do
     t.datetime "issuedate"
     t.string "issuedby"
     t.string "issuecomment"
-    t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "quantityissued"
-    t.index ["user_id"], name: "index_toners_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -71,5 +69,4 @@ ActiveRecord::Schema.define(version: 2020_01_01_205248) do
   end
 
   add_foreign_key "supports", "users"
-  add_foreign_key "toners", "users"
 end

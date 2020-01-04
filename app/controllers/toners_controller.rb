@@ -73,6 +73,6 @@ class TonersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def toner_params
-      params.require(:toner).permit(:requisitionnumber, :username, :tonername, :quantity, :sectionname, :stationname, :requestdate, :comment, :issuedate, :issuedby, :issuecomment)
+      params.require(:toner).permit(:requisitionnumber, :username, :tonername, :quantity, :sectionname, :stationname, :requestdate, :comment, :issuedate, :issuedby, :quantityissued, :issuecomment)
     end
 end
