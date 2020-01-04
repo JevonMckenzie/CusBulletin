@@ -12,7 +12,7 @@ class CreateToners < ActiveRecord::Migration[6.0]
       t.datetime :issuedate
       t.string :issuedby
       t.string :issuecomment
-       
+      t.references :user, null: false, foreign_key: true 
      
       t.timestamps
     end
