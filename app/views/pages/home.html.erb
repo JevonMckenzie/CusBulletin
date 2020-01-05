@@ -9,7 +9,12 @@
           	<tr><td align="center">
           		<div class="theme">
           			<h2 class="theme_" style="color:darkblue">Customs & Excise Department Bulletin</h2><br><% if current_user %>
+<br><br>
+<h3>Welcome <%= current_user.email %> </h3>
 
+
+
+<br><br>
 <%= link_to 'Sign out', destroy_user_session_path, method: :delete %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <%= link_to 'Edit User Information', edit_user_registration_path %>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <% else %>
