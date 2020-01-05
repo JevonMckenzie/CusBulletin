@@ -17,12 +17,13 @@ table, th, td, tr {
 <p id="notice"><%= notice %></p>
 
 <h1 align="center">Toner Requisitions</h1><br>
+<%= puts current_user.email %>
 <br>
 <%= link_to 'New Toner', new_toner_path %><br>
 <%= link_to 'Home', root_path %><br>
 <%= link_to 'Sign out', destroy_user_session_path, method: :delete %><br><br>
 
-
+<div class="">
 <table width="">
   
     <tr>
@@ -68,7 +69,7 @@ table, th, td, tr {
     <% end %>
   <% end %>
 </table>
-
+</div>
 
 <br>
 
