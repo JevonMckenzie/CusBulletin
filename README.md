@@ -4,6 +4,7 @@ cusbulletin is a Ruby on Rails Web Application that is deployed on Heroku.
 
 The purpose of the application is to connect employees within an organization to work related information. It 
 is intended to enhance communication and eventually phase out the consumption of resources required to print and deliver internal Memos.
+
 Professional development within the organization is critical, hence the reason a MS Excel online Tutorial/Course has
 been added included. Other courses will be included in the future. In addition to the courses, quizzletts will be 
 added that will allow the users to test their knowledge of the lessons learnt. Grades will be submitted to a table and stored in the database. Admin can then use these grades to incentivise their employees in vaious ways.  
