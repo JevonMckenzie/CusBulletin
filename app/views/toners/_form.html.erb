@@ -11,7 +11,10 @@
     </div>
   <% end %>
 
- 
+ <div class="field">
+    <%= form.label :requisitionnumber %>
+    <%= form.text_field :requisitionnumber, :value => Toner.last.requisitionnumber + 1, :readonly => true %>
+  </div> 
 
   <div class="field">
     <%= form.label :username %>
