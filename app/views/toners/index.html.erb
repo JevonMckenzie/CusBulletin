@@ -44,7 +44,7 @@ table, th, td, tr {
 
    
     <% @toners.each do |toner| %>
-      
+      <% if toner.stationname == current_user.station || current_user.admin == true %>
       <tr>
         <td><%= toner.requisitionnumber %></td>
         <td><%= toner.username %></td>
@@ -67,7 +67,7 @@ table, th, td, tr {
         </td>
       </tr>
     <% end %>
-  
+  <% end %>
 </table>
 </div>
 
