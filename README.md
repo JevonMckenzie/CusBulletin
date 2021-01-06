@@ -1,6 +1,5 @@
-# README
+# [Customs Bulletin](http://www.jevon-mckenzie.com/cusbulletin.png)
 
-cusbulletin is a Ruby on Rails Web Application that is deployed on Heroku. 
 
 The purpose of the application is to connect employees within an organization to work related information. It 
 is intended to enhance communication and eventually phase out the consumption of resources required to print and deliver internal Memos.
