@@ -14,7 +14,9 @@ effeciency, security, integrity, accessibility and data analysis within the vari
 
 cusbulletin provides a web portal with multiple forms for data input into 
 related tables that represents a single database.
- 
+
+![Argon Dashboard](http://www.jevon-mckenzie.com/cusbulletin.png) 
+
 The following outlines some of the operations that have been automated or those that are expepcted to be automated:
 
 * Managing the procurement and consumption of toners at all stations country-wide
